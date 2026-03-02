@@ -1,0 +1,44 @@
+name: Report a broken link
+description: Let us know about a link that no longer works.
+labels: ["broken-link"]
+body:
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      description: Which page is the broken link on?
+      options:
+        - General Advice
+        - Applying to Grad School
+        - For Undergraduates
+        - Finding Research Ideas
+        - From Ideas to Papers
+        - Writing Advice
+        - Presentations
+        - Datasets and Coding
+        - AI in Research
+        - The Job Market
+        - Mental Health
+        - Resources for Research Assistants
+        - Conferences
+        - Funding
+        - Mentoring Programs
+        - Refereeing
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      description: The URL that no longer works.
+      placeholder: https://example.com/broken-page
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement (optional)
+      description: If you know of an updated or alternative URL, paste it here.
+      placeholder: https://example.com/new-page
+    validations:
+      required: false

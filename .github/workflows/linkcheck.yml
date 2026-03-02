@@ -1,0 +1,43 @@
+name: Check for broken links
+
+on:
+  schedule:
+    - cron: "0 6 * * 0" # Every Sunday at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-mail
+            --exclude 'twitter\.com'
+            --exclude 'x\.com'
+            --exclude 't\.co'
+            _site/**/*.html
+          fail: false
+          output: lychee-report.md
+
+      - name: Create or update issue with broken links
+        if: hashFiles('lychee-report.md') != ''
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Broken links report"
+          content-filepath: lychee-report.md
+          labels: broken-link
+          update-existing: true

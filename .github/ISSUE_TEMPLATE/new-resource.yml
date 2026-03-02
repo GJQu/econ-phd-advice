@@ -1,0 +1,55 @@
+name: Suggest a new resource
+description: Recommend a resource to add to the site.
+labels: ["new-resource"]
+body:
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      description: Which section does this resource belong in?
+      options:
+        - General Advice
+        - Applying to Grad School
+        - For Undergraduates
+        - Finding Research Ideas
+        - From Ideas to Papers
+        - Writing Advice
+        - Presentations
+        - Datasets and Coding
+        - AI in Research
+        - The Job Market
+        - Mental Health
+        - Resources for Research Assistants
+        - Conferences
+        - Funding
+        - Mentoring Programs
+        - Refereeing
+        - New section (describe below)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to the resource.
+      placeholder: https://example.com/great-advice
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A sentence or two about what the resource covers and why it's useful.
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Audience
+      description: Who is this resource most relevant for?
+      options:
+        - Undergrads considering a PhD
+        - Current PhD students
+        - Both
+    validations:
+      required: true
