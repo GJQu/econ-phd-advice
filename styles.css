@@ -1,7 +1,7 @@
 /* Accent colors — light mode */
 :root {
-  --link-color: #1a6b5a;
-  --link-hover-color: #13503f;
+  --link-color: #2166AC;
+  --link-hover-color: #184e82;
 }
 
 a {
@@ -13,8 +13,8 @@ a:hover {
 
 /* Accent colors — dark mode */
 [data-bs-theme="dark"] {
-  --link-color: #5ec4ab;
-  --link-hover-color: #7fd4bf;
+  --link-color: #6aadeb;
+  --link-hover-color: #91c4f2;
 }
 
 /* Sidebar active page highlight */
@@ -24,8 +24,11 @@ a:hover {
 
 /* Dark mode toggle — larger and more prominent */
 .quarto-color-scheme-toggle {
+  display: flex;
+  align-items: center;
   font-size: 1.4rem;
-  padding: 0.3rem 0.6rem;
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 0.5rem;
   border: 2px solid var(--link-color);
   border-radius: 8px;
   transition: all 0.2s ease;

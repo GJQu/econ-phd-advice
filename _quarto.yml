@@ -12,6 +12,17 @@ website:
   repo-actions: [edit, issue]
   search: true
 
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/gjqu/econ-phd-advice
+
   sidebar:
     style: docked
     contents:
@@ -47,6 +58,7 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
     css: styles.css
+    toc: true
