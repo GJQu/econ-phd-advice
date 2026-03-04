@@ -1,0 +1,22 @@
+---
+title: "About"
+---
+
+This site is a curated, community-maintained collection of resources and advice
+for economists at every stage of the academic pipeline — from undergraduates
+considering a PhD to students navigating the job market.
+
+## Origins
+
+The collection was originally created by
+[Chris Roth](https://www.chris-roth.com/) and
+[David Schindler](https://www.davidschindler.org/) as a
+[Google Sites page](https://sites.google.com/view/econgradadvice/). It has been
+migrated to this open-source Quarto website by [Gavin Qu](https://gjqu.github.io/about/) so the community can contribute and
+keep it up to date.
+
+## Contributing
+
+Found a great resource? Spotted a broken link? Contributions are welcome!
+Visit the [GitHub repository](https://github.com/gjqu/econ-phd-advice)
+to open a pull request or file an issue.
