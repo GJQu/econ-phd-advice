@@ -9,6 +9,14 @@ hundreds of students.
 
 ## Ways to contribute
 
+The best way to contribute is to **open a pull request**. We strongly recommend
+working locally — clone the repo, create a branch, preview your changes with
+`quarto preview`, and submit a PR from there. This lets you verify everything
+looks right before anyone else sees it, and it keeps the review process smooth.
+
+See the [local workflow](#local-workflow-recommended) section below for the
+full steps.
+
 ### Report a broken link
 
 Found a link that no longer works? Open an
@@ -39,40 +47,50 @@ where it fits before anyone starts writing.
 
 Pull requests for small fixes are always welcome — no issue needed.
 
-## How to submit a pull request (step by step)
+## How to submit a pull request
 
-Here's how to add a resource using GitHub's web interface — no command line required.
+### Local workflow (recommended)
 
-1. **Find the right file.** Section files live in the
-   [`sections/`](https://github.com/gjqu/econ-phd-advice/tree/main/sections)
-   folder. Click into the one you want to edit (e.g., `writing.qmd` for writing
-   advice).
-
-2. **Click the pencil icon** (top right of the file view) to edit the file.
-   GitHub will automatically create a "fork" (your own copy of the project) if
-   you don't have one yet.
-
-3. **Add your resource** at the end of the relevant section, using the
-   formatting guidelines below.
-
-4. **Scroll down** and write a short commit message describing what you added
-   (e.g., "Add Cochrane's writing tips to writing section").
-
-5. **Click "Propose changes"**, then **"Create pull request"** on the next page.
-   Add a brief description if you like, then submit.
-
-That's it! We'll review your PR and merge it if everything looks good. If we
-have questions, we'll leave a comment on the PR.
-
-### If you prefer working locally
+Working locally lets you preview exactly how your changes will look on the site
+before submitting. Requires [Quarto](https://quarto.org/) >= 1.4.
 
 ```bash
-# Fork and clone the repo, then:
-quarto preview        # preview the site at localhost
-# Make your edits, then commit and push
+# 1. Fork and clone the repo
+git clone https://github.com/<your-username>/econ-phd-advice.git
+cd econ-phd-advice
+
+# 2. Create a branch for your changes
+git checkout -b add-writing-resource
+
+# 3. Preview the site locally
+quarto preview
+
+# 4. Edit the relevant .qmd file in sections/
+#    (the preview will hot-reload as you save)
+
+# 5. Commit and push
+git add sections/writing.qmd
+git commit -m "Add Cochrane's writing tips to writing section"
+git push -u origin add-writing-resource
 ```
 
-Requires [Quarto](https://quarto.org/) >= 1.4.
+Then open a pull request on GitHub from your branch. We'll review and merge it —
+if we have questions, we'll leave a comment on the PR.
+
+### Via GitHub's web interface
+
+For quick, small edits you can also use GitHub directly:
+
+1. Navigate to the file in
+   [`sections/`](https://github.com/gjqu/econ-phd-advice/tree/main/sections)
+   and click the pencil icon to edit.
+2. Make your changes, write a short commit message, and click **"Propose
+   changes"**.
+3. Click **"Create pull request"** on the next page and submit.
+
+This works fine for adding a single link, but you won't be able to preview how
+the page renders — so for anything beyond a one-liner, the local workflow is
+preferred.
 
 ## Content formatting guidelines
 
