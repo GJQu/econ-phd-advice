@@ -6,7 +6,7 @@ A curated, community-maintained collection of resources and advice for economist
 
 ## Origins
 
-This project was originally a [Google Sites page](https://sites.google.com/view/econgradadvice/) created by [Chris Roth](https://www.chris-roth.com/) and [David Schindler](https://www.davidschindler.org/). It has been migrated to a Quarto website and expanded to include resources for undergraduates considering a PhD.
+This project was originally a [Google Sites page](https://sites.google.com/view/econgradadvice/). It has been migrated to a Quarto website and expanded to include resources for undergraduates considering a PhD.
 
 ## Contributing
 
