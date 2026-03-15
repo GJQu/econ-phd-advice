@@ -2,6 +2,10 @@
 $primary: #2166AC;
 $link-color: #2166AC;
 
+/* Normalize font family across light (cosmo) and dark (darkly) themes
+   so switching modes doesn't change perceived text size (fixes #12) */
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 /* Normalize font size across light (cosmo) and dark (darkly) themes
    to prevent navbar and layout resizing on theme toggle */
 $font-size-base: 1rem;
