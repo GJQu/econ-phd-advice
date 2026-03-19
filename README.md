@@ -2,7 +2,7 @@
 
 A curated, community-maintained collection of resources and advice for economists — from undergraduates exploring the PhD path to students on the job market.
 
-**Live site:** [https://gjqu.github.io/econ-phd-advice/](https://gjqu.github.io/econ-phd-advice/)
+**Live site:** [https://gavinjqu.github.io/econ-phd-advice/](https://gavinjqu.github.io/econ-phd-advice/)
 
 ## Origins
 

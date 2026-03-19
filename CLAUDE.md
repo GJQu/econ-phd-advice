@@ -121,7 +121,7 @@ This section is expected to grow significantly through community contributions s
 - Enable search
 - Include a repo link in the navbar for easy "Edit this page" / "Report issue" flow
 - Set `repo-url` and `repo-actions: [edit, issue]` so each page gets GitHub edit/issue links
-- The repo URL is: `https://github.com/gjqu/econ-phd-advice`
+- The repo URL is: `https://github.com/gavinjqu/econ-phd-advice`
 
 ### Styling
 
