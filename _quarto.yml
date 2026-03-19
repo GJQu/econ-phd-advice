@@ -31,6 +31,7 @@ website:
         contents:
           - sections/undergrad.qmd
           - sections/applying.qmd
+          - sections/media.qmd
       - section: "During the PhD"
         contents:
           - sections/general.qmd
