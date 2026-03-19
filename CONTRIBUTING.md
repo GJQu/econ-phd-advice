@@ -20,7 +20,7 @@ full steps.
 ### Report a broken link
 
 Found a link that no longer works? Open an
-[issue](https://github.com/gjqu/econ-phd-advice/issues/new) with:
+[issue](https://github.com/gavinjqu/econ-phd-advice/issues/new) with:
 
 - **Title:** "Broken link in [section name]"
 - **Body:** the broken URL and, if you know of one, a replacement link
@@ -31,7 +31,7 @@ We'll fix or remove it.
 
 If you know a great resource that belongs on this site, you can either:
 
-- **Quick way:** open an [issue](https://github.com/gjqu/econ-phd-advice/issues/new)
+- **Quick way:** open an [issue](https://github.com/gavinjqu/econ-phd-advice/issues/new)
   with the link, a short description, and which section it belongs in. We'll
   add it for you.
 - **DIY way:** edit the relevant `.qmd` file and submit a pull request (see the
@@ -40,7 +40,7 @@ If you know a great resource that belongs on this site, you can either:
 ### Suggest a new section
 
 If you think the site is missing an entire topic area, open an
-[issue](https://github.com/gjqu/econ-phd-advice/issues/new) so we can discuss
+[issue](https://github.com/gavinjqu/econ-phd-advice/issues/new) so we can discuss
 where it fits before anyone starts writing.
 
 ### Fix typos or formatting
@@ -89,7 +89,7 @@ if we have questions, we'll leave a comment on the PR.
 For quick, small edits you can also use GitHub directly:
 
 1. Navigate to the file in
-   [`sections/`](https://github.com/gjqu/econ-phd-advice/tree/main/sections)
+   [`sections/`](https://github.com/gavinjqu/econ-phd-advice/tree/main/sections)
    and click the pencil icon to edit.
 2. Make your changes, write a short commit message, and click **"Propose
    changes"**.

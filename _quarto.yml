@@ -7,8 +7,8 @@ project:
 
 website:
   title: "Advice for Grad School in Economics"
-  site-url: https://gjqu.github.io/econ-phd-advice/
-  repo-url: https://github.com/gjqu/econ-phd-advice
+  site-url: https://gavinjqu.github.io/econ-phd-advice/
+  repo-url: https://github.com/gavinjqu/econ-phd-advice
   repo-actions: [edit, issue]
   search: true
 
@@ -21,7 +21,7 @@ website:
         href: about.qmd
     right:
       - icon: github
-        href: https://github.com/gjqu/econ-phd-advice
+        href: https://github.com/gavinjqu/econ-phd-advice
 
   sidebar:
     style: docked
@@ -53,7 +53,7 @@ website:
       A community-driven project — inspired by work from
       [Chris Roth](https://www.chris-roth.com/) &
       [David Schindler](https://www.davidschindler.org/).
-      [Contribute on GitHub](https://github.com/gjqu/econ-phd-advice).
+      [Contribute on GitHub](https://github.com/gavinjqu/econ-phd-advice).
 
 format:
   html:
