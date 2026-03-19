@@ -1,0 +1,24 @@
+---
+title: "Podcasts & Videos"
+---
+
+Podcasts, YouTube channels, and other media resources for economists at all stages.
+
+## Podcasts
+
+- [The Hidden Curriculum](https://podcasts.apple.com/us/podcast/the-hidden-curriculum/id1526729667)
+  — Explores the unwritten rules of academia.
+<!-- Also in general.qmd -->
+- [Quantitude](https://quantitudepod.org/)
+  — Quantitative methods in the social sciences, hosted by two methodologists.
+- [The Mixtape with Scott](https://podcasts.apple.com/us/podcast/the-mixtape-with-scott/id1615110472)
+  — Scott Cunningham interviews economists about their research and careers.
+- [Casual Inference](https://podcasts.apple.com/us/podcast/casual-inference/id1485892859)
+  — Causal inference methods and applied econometrics.
+- [Freakonomics](https://freakonomics.com/)
+  — Accessible economics journalism and interviews with leading economists.
+
+## YouTube Channels
+
+- [Marginal Revolution University](https://www.youtube.com/@MarginalRevolutionUniversity/featured)
+  — Free economics courses and explainer videos from Tyler Cowen and Alex Tabarrok.
